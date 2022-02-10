@@ -14,6 +14,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.glsl$/,
+        use: 'webpack-glsl-loader',
+      },
+      {
         test: /\.(gif|png|jpe?g)$/,
         use: [
           {
@@ -33,7 +37,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.css', '.js'],
+    extensions: ['.glsl', '.css', '.js'],
   },
   plugins: [
     // Re-generate index.html with injected script tag.

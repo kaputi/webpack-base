@@ -1,5 +1,5 @@
 {
-  "name": "webpack-base",
+  "name": "alma",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -19,9 +19,11 @@
     "style-loader": "^3.3.1",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.7.2"
+    "webpack-dev-server": "^4.7.2",
+    "webpack-glsl-loader": "^1.0.1"
   },
   "dependencies": {
+    "gl-matrix": "^3.4.3",
     "http-server": "^14.0.0"
   }
 }
